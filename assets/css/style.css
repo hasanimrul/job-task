@@ -1,0 +1,85 @@
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 720px;
+    padding-left: 100px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.main .cta{
+    font-family: 'Raleway', sans-serif;
+flex:1;
+}
+.main .cta .text-1{
+    font-size: 25px;
+    font-weight: 400;
+}
+.main .cta .text-2{
+    font-size: 65px;
+    font-weight: 600;
+
+    margin-top: 18px;
+    
+}
+.main .cta .cta-button, .restart{
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #00ACF1;
+    color: white;
+    border: none;
+    outline: 0px;
+    padding: 6px 12px;
+    border-radius: 6px;
+
+    margin-top: 18px;
+    
+}
+.main .hero-image{
+    flex:1;
+    
+}
+.main .hero-image img{
+    width: 500px;
+}
+.main .rotating_text{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 125%;
+    transform: translate(-50%,-50%) rotate(70deg);
+}
+.main .blurry-vector1{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    z-index: -1111;
+}
+.main .blurry-vector2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1111;
+}
+.main .blurry-vector3{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1111;
+}
+.restart{
+    background-color: rgb(211, 0, 162);
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
